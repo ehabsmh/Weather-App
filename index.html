@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="bg-dark">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container">
+          <a class="navbar-brand text-white custom-font" href="#">
+            <img src="imgs/logo.png" alt="" /> Weather</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 p-5">
+              <li
+                class="nav-item border border-3 rounded-pill px-4 py-0 border-primary"
+              >
+                <a
+                  class="nav-link active custom-font"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link text-white custom-font" href="#">News</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link text-white custom-font" href="#"
+                  >Live cameras</a
+                >
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link text-white custom-font" href="#">Photos</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link text-white custom-font" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="home" id="home">
+      <div class="container">
+        <div class="py-5 mb-5">
+          <input
+            type="search"
+            id="searchBar"
+            class="form-control bg-dark rounded-pill p-3 text-white"
+            placeholder="Find your location..."
+          />
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="row custom-row" id="firstDay">
+        <div class="col-md-4 bg-custom text-white px-0 rounded-3 custom-col">
+          <div
+            class="card-header px-2 py-0 first-head-col-bg mb-2 d-flex justify-content-center align-items-center"
+          >
+            <p class="days text-center">Monday</p>
+            <p class="day-date text-warning text-center">2022-06-14</p>
+          </div>
+          <div class="weather-info">
+            <p id="countryName" class="text-warning fw-bold display-5">Cairo</p>
+            <div class="d-flex justify-content-around">
+              <h1 class="display-2 fw-bold temprature">12</h1>
+              <span class="display-2 fw-bold"> </span>
+              <img src="" alt="" class="weather-img w-25" />
+            </div>
+            <p class="text-info py-3 condition">Clouz</p>
+            <div class="weather-cond d-flex justify-content-around">
+              <p><i class="fa-solid fa-umbrella"></i> 20%</p>
+              <p><i class="fa-solid fa-wind"></i> 18km/h</p>
+              <p><i class="fa-solid fa-compass"></i> East</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 bg-scnd-col text-white px-0 rounded-3 custom-col">
+          <div
+            class="card-header px-2 py-0 second-head-col-bg d-flex justify-content-center align-items-center"
+          >
+            <p class="days text-center">Tuesday</p>
+            <p class="day-date text-warning text-center">2022-06-14</p>
+          </div>
+          <div class="weather-info text-center">
+            <img src="" alt="" class="weather-img" />
+            <div>
+              <h2 class="fw-bold temprature">35<sup>o</sup> C</h2>
+              <p class="text-info condition">clos</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 bg-custom text-white px-0 rounded-3 custom-col">
+          <div
+            class="card-header px-2 py-0 first-head-col-bg d-flex justify-content-center align-items"
+          >
+            <p class="days text-center">Wednesday</p>
+            <p class="day-date text-warning text-center">2022-06-14</p>
+          </div>
+          <div class="weather-info text-center">
+            <img src="" alt="" class="weather-img" />
+            <div>
+              <h2 class="fw-bold temprature">20<sup>o</sup> C</h2>
+              <p class="text-info condition">Heavy rain</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 position-relative">
+            <div>
+              <input
+                type="email"
+                class="form-control bg-dark rounded-pill p-3 border-secondary"
+                placeholder="Enter your email to subscribe..."
+              />
+              <button type="submit" class="subscribe-btn">Subscribe</button>
+            </div>
+          </div>
+          <div class="col-md-6 text-end text-white">
+            <i class="fa-brands fa-facebook pe-2"></i>
+            <i class="fa-brands fa-instagram pe-2"></i>
+            <i class="fa-brands fa-github pe-2"></i>
+            <i class="fa-brands fa-twitter pe-2"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+  </body>
+</html>

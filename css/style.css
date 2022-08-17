@@ -1,0 +1,65 @@
+header .custom-font {
+  font-size: 0.9rem;
+}
+
+.home {
+  background-image: url(../imgs/download.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 350px;
+  padding: 70px 0;
+}
+
+.bg-custom {
+  background-color: rgb(50, 53, 68);
+}
+
+.first-head-col-bg {
+  background-color: rgb(39, 42, 54);
+}
+
+.second-head-col-bg {
+  background-color: rgba(23, 23, 32, 0.568);
+}
+
+.bg-scnd-col {
+  background-color: rgb(38, 41, 54);
+}
+
+.weather-info {
+  padding: 50px 20px 10px;
+}
+
+.custom-row {
+  width: 100%;
+  margin-top: -150px;
+  margin-bottom: 50px;
+  background: rgb(50, 53, 68);
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: rgb(30, 36, 49);
+  padding: 3rem;
+}
+
+.subscribe-btn {
+  position: absolute;
+  right: 15px;
+  top: 0px;
+  bottom: 0px;
+  height: 100%;
+  padding: 10px 20px;
+  border-radius: 30px;
+  background: rgb(0, 154, 216);
+  color: white;
+  border: none;
+}
+
+.day-date {
+  font-size: 12px;
+  margin-left: 10px;
+  align-self: center;
+}
